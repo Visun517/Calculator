@@ -1,0 +1,60 @@
+/* Button Styles */
+.button {
+    -fx-background-color: #1F509A; /* Primary background color */
+    -fx-text-fill: white;         /* Text color */
+    -fx-font-size: 16px;          /* Font size */
+    -fx-font-weight: bold;        /* Font weight */
+    -fx-background-radius: 10;    /* Rounded corners */
+    -fx-border-color: #0D3C70;    /* Border color */
+    -fx-border-width: 2;          /* Border width */
+    -fx-cursor: hand;             /* Pointer cursor on hover */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 5, 0.5, 0, 1);
+}
+
+/* Hover Effect */
+.button:hover {
+    -fx-background-color: #17447F; /* Slightly darker blue */
+    -fx-border-color: #093052;
+}
+
+/* Pressed Effect */
+.button:pressed {
+    -fx-background-color: #0D3C70; /* Even darker blue when pressed */
+    -fx-effect: none;
+}
+.Grid-pane{
+    -fx-background-color: #0D3C70; /* Even darker blue when pressed */
+
+}
+.button1 {
+    -fx-background-color: #A6AEBF; /* Primary background color */
+    -fx-text-fill: white;         /* Text color */
+    -fx-font-size: 16px;          /* Font size */
+    -fx-font-weight: bold;        /* Font weight */
+    -fx-background-radius: 10;    /* Rounded corners */
+    -fx-border-color: #0D3C70;    /* Border color */
+    -fx-border-width: 2;          /* Border width */
+    -fx-cursor: hand;             /* Pointer cursor on hover */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 5, 0.5, 0, 1);
+}
+
+/* Hover Effect */
+.button1:hover {
+    -fx-background-color: #17447F; /* Slightly darker blue */
+    -fx-border-color: #093052;
+}
+
+/* Pressed Effect */
+.button1:pressed {
+    -fx-background-color: #0D3C70; /* Even darker blue when pressed */
+    -fx-effect: none;
+}
+.text-field {
+    -fx-background-color: #0D3C70; /* Even darker blue when pressed */
+    -fx-text-fill: white; /* Text color */
+    -fx-font-size: 50px; /* Font size */
+    -fx-font-family: "Arial"; /* Font family */
+    -fx-font-weight: bold; /* Bold text */
+    -fx-alignment: TOP_RIGHT; /* Center-align text */
+    -fx-padding: 10; /* Padding inside the button */
+}
