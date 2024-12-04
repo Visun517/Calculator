@@ -53,7 +53,7 @@
             <Image url="@Image/close.png" />
          </image>
       </ImageView>
-      <TextField fx:id="txtType" alignment="CENTER" layoutY="2.0" prefHeight="91.0" prefWidth="398.0" text="|">
+      <TextField fx:id="txtType" alignment="CENTER" layoutY="2.0" prefHeight="91.0" prefWidth="398.0">
          <font>
             <Font size="43.0" />
          </font>
